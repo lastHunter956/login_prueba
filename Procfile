@@ -1,1 +1,1 @@
-web: gunicorn app:.\src\app.py && run gunicorn app:.\src\app.py --bind
+web: gunicorn app:.\src\app.py && web: flask .\src\app.py --bind
